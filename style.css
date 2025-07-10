@@ -5,7 +5,6 @@
 
 /* UNIVERSAR CSS */
 * {
-    font-family: "Raleway", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +15,9 @@
 
 }
 
+body {
+    font-family: "Raleway", sans-serif;
+}
 
 /* REUSABLE CSS */
 
@@ -26,6 +28,26 @@
     font-size: 16px;
     color: #fff;
     font-weight: 700;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-size: 18px;
+    background: #eec303;
+    color: #000;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+}
+
+
+section {
+    width: 1140px;
+    margin: 0 auto;
 }
 
 
@@ -83,3 +105,42 @@
 
 
 /* BANNER SECTION STYLES END */
+
+
+/* ACTION SECTION STYLES START */
+
+.action-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.action-section .left-side {
+    width: 517px;
+}
+
+.action-section .left-side h1 {
+    font-size: 42px;
+    padding-bottom: 23px;
+}
+
+.action-section .left-side p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243270;
+    padding-bottom: 23px;
+}
+
+.action-section .right-side {
+    width: 403px;
+    margin-top: 110px;
+}
+
+.action-section .right-side img {
+    width: 100%;
+    border-radius: 48px;
+}
+
+/* ACTION SECTION STYLES END */
