@@ -364,6 +364,7 @@ textarea {
 /* FOOTER SECTION START */
 
 .footer-section {
+    width: 100%;
     height: 428px;
     display: flex;
     flex-direction: column;
@@ -371,6 +372,7 @@ textarea {
     justify-content: center;
     gap: 8px;
     margin-top: 14px;
+    background: #fff;
 }
 
 .footer-section .logo {
