@@ -113,6 +113,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 328px;
 
 }
 
@@ -144,3 +145,48 @@ section {
 }
 
 /* ACTION SECTION STYLES END */
+
+
+/* PRODUCTIVE SECTION STYLES START */
+
+.productive-section {
+    background: rgba(75, 81, 255, 0.1);
+    padding: 50px 80px;
+    margin-top: 116px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.productive-section h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.productive-section .user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 856px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.productive-section .user h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin-top: 40px;
+}
+
+
+
+.productive-section .user p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #25243270;
+}
+
+
+
+/* PRODUCTIVE SECTION STYLES END */
