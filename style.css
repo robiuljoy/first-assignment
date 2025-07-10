@@ -259,3 +259,41 @@ section {
 }
 
 /* USERS OPINION SECTION STYLES END */
+
+/* READY SECTION STYLES START */
+
+.readysection {
+    background: #fff;
+    height: 696px;
+    padding: 71px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 137px;
+}
+
+.readysection h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.readysection p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.btn-ready {
+    text-align: center;
+}
+
+
+.readysection img {
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+
+/* READY SECTION STYLES END */
