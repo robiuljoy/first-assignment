@@ -12,7 +12,7 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-
+    list-style: none;
 }
 
 body {
@@ -358,4 +358,50 @@ textarea {
 }
 
 
+
 /* LETS GET IN TOUCH SECTION STYLES END */
+
+/* FOOTER SECTION START */
+
+.footer-section {
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.footer-section .logo {
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+}
+
+.footer-section p {
+    width: 531px;
+    text-align: center;
+    color: #8987A1;
+    font-size: 16px;
+}
+
+
+.footer-link ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    margin-top: 20px;
+}
+
+.footer-link ul a {
+    color: #8987A1;
+    font-size: 16px;
+}
+
+.footer-link ul a:hover {
+    color: #4E47FF;
+}
+
+/* FOOTER SECTION END */
